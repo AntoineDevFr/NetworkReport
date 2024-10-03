@@ -1,0 +1,38 @@
+<!-- 
+This file is part of PyFlaSQL.
+Original author: Raphael Viera (raphael.viera@emse.fr)
+License: check the LICENSE file.
+-->
+{% extends "base.html" %}
+{% block title %}PyFlaSQL{% endblock %}
+{% block content %}
+<div class="container p-5 my-5">
+    <!-- Main Title -->
+    <h1 class="text-center">{{username}}, welcome to PyFlaSQL!</h1>
+    <div class="container p-5 my-5 border">
+        <!-- Description -->
+        <p class="lead">
+            PyFlaSQL (Python - Flask - SQLite) is built using a combination of modern web technologies.
+        </p>
+                
+        <p class="lead">
+            This application allows us to execute certain network scanning, footprinting, vulnerability searching, and access gaining commands.
+        </p>
+        <p class="lead">
+            This app is split in 4 differents parts: 
+            <ol>
+                <li>Footprint</li>
+                <li>Scanning</li>
+                <li>Enumeration</li>
+                <li>Exploiting & gaining access</li>
+            </ol>
+        </p>
+        <p class="lead">
+            This application was developed by Raphael Viera as part of the Network course at Mines Saint-Etienne and modified by members of Group 1: Noé Backert, Antoine Banchet, and Yassmina Bara.
+        </p>
+    </div>
+
+
+</div>
+{% endblock %}
+
